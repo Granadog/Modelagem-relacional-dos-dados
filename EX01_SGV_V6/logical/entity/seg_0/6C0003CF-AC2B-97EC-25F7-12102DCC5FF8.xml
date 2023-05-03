@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6C0003CF-AC2B-97EC-25F7-12102DCC5FF8" name="T_SGV_FISICA">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-13 00:56:37 UTC</createdTime>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<engineerTo>
+<item key="FAEA6524-B7CF-E3CA-0C35-9FA6FBC650FC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_pessoa" id="C98E878A-DDFA-5B4B-9B5F-DBC706B62269">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-13 01:36:02 UTC</createdTime>
+<generatorID>ACC4BD65-DBF9-11D1-9FA0-D282D4B8F598</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<engineerTo>
+<item key="FAEA6524-B7CF-E3CA-0C35-9FA6FBC650FC" value="true"/>
+</engineerTo>
+<referedAttribute>DC93B4B9-76CF-3A75-C2B5-DFBB31C07881</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_fisica" id="FDC21675-C388-043E-0271-F0EDBF5E020B">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-13 01:02:26 UTC</createdTime>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<engineerTo>
+<item key="FAEA6524-B7CF-E3CA-0C35-9FA6FBC650FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_rg" id="263EDDCF-D0BC-6685-EC7F-E868FE78C893">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-13 01:02:38 UTC</createdTime>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<engineerTo>
+<item key="FAEA6524-B7CF-E3CA-0C35-9FA6FBC650FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_cpf" id="B58ADCAB-6BF2-B48A-BC5A-D71AFD02D546">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-13 01:02:47 UTC</createdTime>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<engineerTo>
+<item key="FAEA6524-B7CF-E3CA-0C35-9FA6FBC650FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_nascimento" id="E30FC480-0D9A-3E50-1227-60A2C6A920C9">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-13 01:03:06 UTC</createdTime>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<engineerTo>
+<item key="FAEA6524-B7CF-E3CA-0C35-9FA6FBC650FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_sexo" id="C56252BF-8D7C-E2AE-4B64-591D62624F8B">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-13 01:03:14 UTC</createdTime>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<engineerTo>
+<item key="FAEA6524-B7CF-E3CA-0C35-9FA6FBC650FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_email" id="4D81CEA8-CE9C-978F-BE4F-597486B78243">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-13 01:03:46 UTC</createdTime>
+<commentInRDBMS><![CDATA[informacao obrigatoria RN23]]></commentInRDBMS>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<engineerTo>
+<item key="FAEA6524-B7CF-E3CA-0C35-9FA6FBC650FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C8B8D18A-E663-0690-06AA-6ABA1C0F921A" name="T_SGV_FISICA PK">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-13 01:23:12 UTC</createdTime>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="FAEA6524-B7CF-E3CA-0C35-9FA6FBC650FC" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C98E878A-DDFA-5B4B-9B5F-DBC706B62269</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

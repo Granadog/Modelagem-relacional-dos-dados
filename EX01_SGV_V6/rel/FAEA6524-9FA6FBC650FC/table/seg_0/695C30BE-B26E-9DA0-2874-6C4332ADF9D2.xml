@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="695C30BE-B26E-9DA0-2874-6C4332ADF9D2" name="T_SGV_VENDA">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<generatorID>11676596-699D-152A-1225-6906C32E24EB</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_venda" id="1A8171E4-53FD-0C96-F992-B7AAEE4A5D12">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[regra obrigatoria  criada da RN 24 ]]></commentInRDBMS>
+<generatorID>643E2434-633E-0064-DBE1-D1E2CB386680</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="qt_venda" id="BABADB5D-AF3B-7E01-F914-4835CBDC92E1">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[regra obrigatoria  criada da RN 24 ]]></commentInRDBMS>
+<generatorID>D4F0B544-D1BB-E357-C2A9-E84BAC35ED68</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_venda" id="7EC15695-DFDE-D120-C389-CBED598D8BF0">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[regra obrigatoria  criada da RN 24 ]]></commentInRDBMS>
+<generatorID>595F3DE5-7A95-34C7-3739-CAC42CE47AFA</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,11,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_venda" id="8A01D0F8-CC71-9E59-23FB-B067B527D876">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[regra obrigatoria  criada da RN 24 ]]></commentInRDBMS>
+<generatorID>04E6024B-8B18-54A0-3893-39EFA4E9559A</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pc_desconto" id="90FD22EA-C11D-B15E-692B-5975CAE8332A">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[regra obrigatoria  criada da RN 24 ]]></commentInRDBMS>
+<generatorID>E4A5712D-6BC0-C4E5-445A-EBC6D0DE41FA</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_SGV_NOTA_cd_nota" id="0B60A79D-0AF7-A76C-B3F9-11425F3497D7">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[regra obrigatoria  criada da RN 24 ]]></commentInRDBMS>
+<generatorID>82B0198F-5011-2624-EC4F-BF4BD9ADF620</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_SGV_PESSOA_cd_pessoa" id="183B4BEA-E733-2831-CC72-AA6CFA53362A">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[regra obrigatoria  criada da RN 24 ]]></commentInRDBMS>
+<generatorID>A8817954-8800-3DB6-C378-771EFCA59ABF</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7AC736C1-0AE7-51AC-DA3B-A98C5023C489" referredColumn="A6591070-5140-B49F-4EFA-16B8BF458CAE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="36A2837C-399F-C1DD-3E59-DB447710A27B" name="T_SGV_VENDA_PK">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<generatorID>ECCB7F95-CC0C-2935-2837-9B32BD71B7C6</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A8171E4-53FD-0C96-F992-B7AAEE4A5D12"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7C3EFA9C-FF4F-1ABE-0B05-A377DF7EA030" name="T_SGV_VENDA__IDX">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>A6073C0A-D6B3-0F46-7EC6-1ADCE3283FBB</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="0B60A79D-0AF7-A76C-B3F9-11425F3497D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9CA90970-51D3-D377-0E95-240F5C9F55F8" name="T_SGV_VENDA_T_SGV_PESSOA_FK">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<generatorID>7A892691-A02A-5610-20AB-3F403639493B</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="183B4BEA-E733-2831-CC72-AA6CFA53362A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

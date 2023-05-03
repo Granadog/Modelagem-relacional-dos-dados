@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5BDD8C3F-E4B7-3A24-7A19-B881CA92B206" name="T_SGV_CATEG">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<generatorID>8637C4A8-9F75-4EAD-CA42-022AA08D6A7A</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_categ" id="C978D036-259B-FCA2-8D74-F41F5EFC32F4">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[numero sequencial para ser utilizado como sequence crescente ]]></commentInRDBMS>
+<generatorID>EA720281-378F-0B1C-052B-67A75FCF9EBA</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_categ" id="A64BDA0C-6555-63A7-89DB-347976913529">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<generatorID>328A090E-E82E-F9EB-0A60-3C1A16D29185</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_categ" id="FA0DE77F-74C8-6D6A-FB8E-191763CC17FB">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[descricao obrigatoria "A" Ativo se a dt_ fim estive em branco, e"I" inativo se a dt_fim estever preenchida RN06]]></commentInRDBMS>
+<generatorID>58C99441-27BC-988F-EB45-33997099B45D</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_inicio" id="8060C597-4813-FF25-C8CD-0251110BD14D">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[data obrigatoria ]]></commentInRDBMS>
+<generatorID>87B561A3-132C-91DC-F008-462A13F0348B</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_fim" id="922B9C33-7124-C181-3438-3F85440222ED">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[data opcional ( estando em branco categoria "A" ativo e operante. se estiver preenchido deve estar "I" Inativo "R06"]]></commentInRDBMS>
+<generatorID>1DD95FE5-23CE-A19A-DFD1-04DB2481F959</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_SGV_ST_CATEG_cd_st_categ" id="319B5BC3-CFD9-353A-D30A-D4F7F64F7769">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[status obrigatorio ]]></commentInRDBMS>
+<generatorID>F0E4EDA2-06B6-D502-3D0D-8FD69E6C03EB</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5461F098-0F08-3F88-AD3B-A9DD2FD3AA0E" referredColumn="DDBEEAFF-FE20-C1DE-0FB3-846CF0E7C408"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D32E8E09-F1F5-50A0-DF07-A4A24808F371" name="T_SGV_CATEG_PK">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<generatorID>7997CD4D-4535-9BA4-CC30-88DCEA17D9BA</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C978D036-259B-FCA2-8D74-F41F5EFC32F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F04B2978-FC83-E742-5402-D580FADD7535" name="T_SGV_CATEG_T_SGV_ST_CATEG_FK">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<generatorID>74491C59-74F6-45CD-3B86-D904325899E9</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="319B5BC3-CFD9-353A-D30A-D4F7F64F7769"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

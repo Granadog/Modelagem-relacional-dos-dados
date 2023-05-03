@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DC234357-B75B-45F4-FC0E-2E50E9CDE994" name="T_SGV_ENDERECO">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<generatorID>282540A3-6E45-40AF-05C4-6166A8BEC21C</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_endereco" id="2D9C5990-59AC-859D-0A03-963AA353B631">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<generatorID>4418DD4A-469B-8462-0979-E346B6E71868</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tp_enderco" id="A63FA7D0-42BE-EB8A-ACBF-19F077F61E46">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<generatorID>D7B3B523-B1B4-783A-1E8A-9FB2AD4E8943</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_logradouro" id="87B141E4-047F-5DBF-B9D9-387BA8A7D1FB">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<generatorID>4FDE3EE1-E6DA-C8EC-BCA7-DAF3398C8ACB</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_endereco" id="90A8CC8E-AE89-EA3B-44CF-38189B2A52D6">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<generatorID>6B365C9E-6B18-0FE4-7BB0-70683DE74980</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_complemento" id="8B42C509-9B83-38FB-3839-B52357BD988B">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<generatorID>851AD414-F353-0F17-EEA5-950DB900A6F7</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="st_status" id="2A9B954B-9F7F-2784-2076-F30EB72B0413">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[endereço A = ativo e I = inativo]]></commentInRDBMS>
+<generatorID>725C4319-9460-5C54-E814-CA9F803F6607</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_SGV_PESSOA_cd_pessoa" id="97D99345-A4C1-867E-23E3-09A487C6A874">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<generatorID>075F75A9-43E5-1FB8-1718-5EDD6D858933</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3E3BBCCE-929E-D060-18EF-874ECED119B2" referredColumn="A6591070-5140-B49F-4EFA-16B8BF458CAE"/>
+</associations>
+</Column>
+<Column name="nr_cep" id="99DDF965-57FF-093D-6EC6-B50D7E61AE5B">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<generatorID>A98F32D4-09CA-984C-74F0-A84780100431</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="90D2D975-E900-D9CD-E0F7-136C6FFF46BD" name="T_SGV_ENDERECO_PK">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<generatorID>62B480B7-C334-9898-E0F0-33EE59220CCB</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2D9C5990-59AC-859D-0A03-963AA353B631"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="648E909B-903A-8C11-3C8E-6C3DABD5C531" name="T_SGV_ENDERECO_T_SGV_PESSOA_FK">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<generatorID>3F26022C-351A-AD4C-8B35-2A10F0B00324</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="97D99345-A4C1-867E-23E3-09A487C6A874"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

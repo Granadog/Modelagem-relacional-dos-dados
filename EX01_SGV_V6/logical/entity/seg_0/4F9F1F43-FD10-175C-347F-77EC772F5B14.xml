@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4F9F1F43-FD10-175C-347F-77EC772F5B14" name="T_SGV_PROD_VEND">
+<createdBy>User</createdBy>
+<createdTime>2022-09-14 00:51:18 UTC</createdTime>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<engineerTo>
+<item key="FAEA6524-B7CF-E3CA-0C35-9FA6FBC650FC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_qtd" id="9C431915-9CD2-CF10-4289-CB63F9BAF419">
+<createdBy>User</createdBy>
+<createdTime>2022-09-14 00:52:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[regra obrigatoria  criada da RN 24 ]]></commentInRDBMS>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<engineerTo>
+<item key="FAEA6524-B7CF-E3CA-0C35-9FA6FBC650FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_prod_vend" id="DE3AE2FA-BF98-8C43-B652-D8A9B472DEB0">
+<createdBy>User</createdBy>
+<createdTime>2022-09-14 00:53:43 UTC</createdTime>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<engineerTo>
+<item key="FAEA6524-B7CF-E3CA-0C35-9FA6FBC650FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,11,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_prod" id="D01EF9F1-FD82-242B-29CD-100FC9C7FFC8">
+<createdBy>User</createdBy>
+<createdTime>2022-09-14 00:55:29 UTC</createdTime>
+<generatorID>7F42C141-2B0B-22A7-D56E-531968CD85E1</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<engineerTo>
+<item key="FAEA6524-B7CF-E3CA-0C35-9FA6FBC650FC" value="true"/>
+</engineerTo>
+<referedAttribute>603A5331-F6C7-0DD0-240F-1A2491D0151F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_venda" id="9B1D3F4C-7907-1608-3357-C231EA37316E">
+<createdBy>User</createdBy>
+<createdTime>2022-09-14 00:56:54 UTC</createdTime>
+<generatorID>0F482293-7A14-7399-F23D-04116CD17D55</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<engineerTo>
+<item key="FAEA6524-B7CF-E3CA-0C35-9FA6FBC650FC" value="true"/>
+</engineerTo>
+<referedAttribute>643E2434-633E-0064-DBE1-D1E2CB386680</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EC7ACBB3-5758-6775-BDD0-0F1FE641F732" name="T_SGV_PROD_VEND PK">
+<createdBy>User</createdBy>
+<createdTime>2022-09-14 00:55:29 UTC</createdTime>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="FAEA6524-B7CF-E3CA-0C35-9FA6FBC650FC" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D01EF9F1-FD82-242B-29CD-100FC9C7FFC8</attributeRef>
+<attributeRef>9B1D3F4C-7907-1608-3357-C231EA37316E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

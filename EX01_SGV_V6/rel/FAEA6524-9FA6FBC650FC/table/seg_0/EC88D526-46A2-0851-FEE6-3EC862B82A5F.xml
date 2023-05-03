@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EC88D526-46A2-0851-FEE6-3EC862B82A5F" name="T_SGV_FUNC">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<generatorID>A87B3457-8D0B-2F7E-5C4C-B5E8EE9729F6</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_func" id="601026A2-784B-2E79-E3D2-A035FE6A1652">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[informacao obrigatoria RN22]]></commentInRDBMS>
+<generatorID>F0196DF8-616B-77E1-2121-6CD88E3D9167</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_func" id="59167289-5840-5009-2E90-901DC9C33F6D">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[informacao obrigatoria RN22]]></commentInRDBMS>
+<generatorID>2B62EF8D-5D3A-5EEC-9B95-DFC55A95FEFA</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_nasc_func" id="87171D0F-DF20-4E42-FA3A-E6BCDBB68F1E">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[informacao obrigatoria RN22]]></commentInRDBMS>
+<generatorID>0A8ADF0A-7D77-6FBC-202E-8EF7D24A0700</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_telefone_func" id="E8A27FEE-F30D-BFE1-0477-DBD94845D4ED">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[informacao obrigatoria RN22]]></commentInRDBMS>
+<generatorID>F1C7F8C0-C6A9-30E3-E17E-BB8F53CC345D</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<ownDataTypeParameters>,13,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_email_func" id="927CE0FA-CD19-D691-0AC4-DF6CE7F199EB">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[informacao obrigatoria RN22]]></commentInRDBMS>
+<generatorID>CF35409F-7DA4-C2D0-699E-6F4894019C12</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_cargo" id="B62CAB93-DFA8-998C-2F9F-26237A01ACCB">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[informacao obrigatoria RN22]]></commentInRDBMS>
+<generatorID>AB0FFDFE-9A01-26E3-8CD6-D73830DE381A</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_dpto" id="9F947739-EEEA-AA57-FEC9-C16141EDC29C">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[informacao obrigatoria RN22]]></commentInRDBMS>
+<generatorID>3B02BA73-DF29-D1D0-E038-6F15A7CE5EB1</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6A7B0FF5-C16D-1D6C-A86A-F6CD1D5A8C01" name="T_SGV_FUNC_PK">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<generatorID>D3871254-D8B0-24E4-29F7-C7BCC2CE82EF</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="601026A2-784B-2E79-E3D2-A035FE6A1652"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

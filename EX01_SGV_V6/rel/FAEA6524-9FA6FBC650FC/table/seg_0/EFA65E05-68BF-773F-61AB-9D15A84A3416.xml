@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EFA65E05-68BF-773F-61AB-9D15A84A3416" name="T_SGV_VISU">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<generatorID>E034D2BD-57CD-91B4-8E26-329787021A4E</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_visu" id="BE61816B-E38D-21AB-9A2A-A4344079B1AE">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<generatorID>A86046CA-7A4F-D3B6-EAB0-AAFDDC8CD451</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_visu" id="5E83181C-D0BA-7AFF-C635-9B2E31EF8159">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[Informação obrigatoria RN09]]></commentInRDBMS>
+<generatorID>254609E9-7C92-8299-4851-AE0092439E8D</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_SGV_VD_cd_vd" id="9B3224D9-D1B7-DB45-E33B-31C6D6F24774">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<generatorID>66FB1276-7C45-419B-E3AA-310914D55B4C</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2971F4D0-D81D-DAC5-5C9B-8D16054264E3" referredColumn="337D5870-966F-F71E-ACFE-80E3CD462278"/>
+</associations>
+</Column>
+<Column name="T_SGV_PESSOA_cd_pessoa" id="840B6D90-8C70-0491-57C6-07A3A87B9617">
+<createdBy>grana</createdBy>
+<createdTime>2022-09-14 22:32:24 UTC</createdTime>
+<generatorID>A4C147D3-C829-E7E9-5901-5D91765B5246</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D9EF75CE-2277-AC1A-5EC6-88B7BEF45280" referredColumn="A6591070-5140-B49F-4EFA-16B8BF458CAE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="892AB2DF-0904-5266-6910-37E8DC0EAFA3" name="T_SGV_VISU_T_SGV_VD_FK">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<generatorID>ECDDA425-5D88-7ACB-4639-909D9D3A0B2E</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B3224D9-D1B7-DB45-E33B-31C6D6F24774"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C6DD2D99-3B43-0FC4-5B4E-82C240AA2D99" name="T_SGV_VISU_T_SGV_PESSOA_FK">
+<createdBy>grana</createdBy>
+<createdTime>2022-09-14 22:32:24 UTC</createdTime>
+<generatorID>2BD16186-BB5F-5828-3E8D-2CDDD706B085</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="840B6D90-8C70-0491-57C6-07A3A87B9617"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

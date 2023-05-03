@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_4" directorySegmentName="seg_0" id="ECDDA425-5D88-7ACB-4639-909D9D3A0B2E">
+<createdBy>Gabi</createdBy>
+<createdTime>2022-09-06 23:03:24 UTC</createdTime>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<engineerTo>
+<item key="FAEA6524-B7CF-E3CA-0C35-9FA6FBC650FC" value="true"/>
+</engineerTo>
+<sourcePk>9B7B1529-6669-FB09-5910-F6859CC12A89</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8582A141-311A-19DF-E441-D36F45B4A5B4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E034D2BD-57CD-91B4-8E26-329787021A4E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

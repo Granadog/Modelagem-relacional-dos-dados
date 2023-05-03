@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="EX01_SGV_V6" id="91E40145-CB0D-E69D-70FC-4536CF3C1134" version="3.5">
+<createdBy>Gabi</createdBy>
+<createdTime>2022-09-06 13:44:15 UTC</createdTime>
+<ownerDesignName>EX_SGV_MODELER</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>91E40145-CB0D-E69D-70FC-4536CF3C1134</designId>
+</OSDM_Design>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="atender_pessoa" directorySegmentName="seg_0" id="2EAE39B0-9884-9E7B-4C98-71290425CAC5">
+<createdBy>Gabi</createdBy>
+<createdTime>2022-09-06 23:04:21 UTC</createdTime>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<engineerTo>
+<item key="FAEA6524-B7CF-E3CA-0C35-9FA6FBC650FC" value="true"/>
+</engineerTo>
+<sourcePk>265544D0-CEB1-01D2-6153-213DE219370B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>BE7C712A-A131-52B7-6A9A-D8093B5BBDD8</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>535B86EB-409A-84F1-381B-173119D69F25</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A87B3457-8D0B-2F7E-5C4C-B5E8EE9729F6" name="T_SGV_FUNC">
+<createdBy>Gabi</createdBy>
+<createdTime>2022-09-06 14:17:27 UTC</createdTime>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<engineerTo>
+<item key="FAEA6524-B7CF-E3CA-0C35-9FA6FBC650FC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_func" id="F0196DF8-616B-77E1-2121-6CD88E3D9167">
+<createdBy>Gabi</createdBy>
+<createdTime>2022-09-06 14:18:10 UTC</createdTime>
+<commentInRDBMS><![CDATA[informacao obrigatoria RN22]]></commentInRDBMS>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<engineerTo>
+<item key="FAEA6524-B7CF-E3CA-0C35-9FA6FBC650FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_func" id="2B62EF8D-5D3A-5EEC-9B95-DFC55A95FEFA">
+<createdBy>Gabi</createdBy>
+<createdTime>2022-09-06 14:18:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[informacao obrigatoria RN22]]></commentInRDBMS>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<engineerTo>
+<item key="FAEA6524-B7CF-E3CA-0C35-9FA6FBC650FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_nasc_func" id="0A8ADF0A-7D77-6FBC-202E-8EF7D24A0700">
+<createdBy>Gabi</createdBy>
+<createdTime>2022-09-06 14:18:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[informacao obrigatoria RN22]]></commentInRDBMS>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<engineerTo>
+<item key="FAEA6524-B7CF-E3CA-0C35-9FA6FBC650FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_telefone_func" id="F1C7F8C0-C6A9-30E3-E17E-BB8F53CC345D">
+<createdBy>Gabi</createdBy>
+<createdTime>2022-09-06 14:19:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[informacao obrigatoria RN22]]></commentInRDBMS>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<engineerTo>
+<item key="FAEA6524-B7CF-E3CA-0C35-9FA6FBC650FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<ownDataTypeParameters>,13,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_email_func" id="CF35409F-7DA4-C2D0-699E-6F4894019C12">
+<createdBy>Gabi</createdBy>
+<createdTime>2022-09-06 14:20:54 UTC</createdTime>
+<commentInRDBMS><![CDATA[informacao obrigatoria RN22]]></commentInRDBMS>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<engineerTo>
+<item key="FAEA6524-B7CF-E3CA-0C35-9FA6FBC650FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_cargo" id="AB0FFDFE-9A01-26E3-8CD6-D73830DE381A">
+<createdBy>User</createdBy>
+<createdTime>2022-09-14 00:20:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[informacao obrigatoria RN22]]></commentInRDBMS>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<engineerTo>
+<item key="FAEA6524-B7CF-E3CA-0C35-9FA6FBC650FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_dpto" id="3B02BA73-DF29-D1D0-E038-6F15A7CE5EB1">
+<createdBy>User</createdBy>
+<createdTime>2022-09-14 00:21:13 UTC</createdTime>
+<commentInRDBMS><![CDATA[informacao obrigatoria RN22]]></commentInRDBMS>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<engineerTo>
+<item key="FAEA6524-B7CF-E3CA-0C35-9FA6FBC650FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D3871254-D8B0-24E4-29F7-C7BCC2CE82EF" name="T_SGV_FUNCIONARIO PK">
+<createdBy>Gabi</createdBy>
+<createdTime>2022-09-06 14:18:29 UTC</createdTime>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="FAEA6524-B7CF-E3CA-0C35-9FA6FBC650FC" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F0196DF8-616B-77E1-2121-6CD88E3D9167</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

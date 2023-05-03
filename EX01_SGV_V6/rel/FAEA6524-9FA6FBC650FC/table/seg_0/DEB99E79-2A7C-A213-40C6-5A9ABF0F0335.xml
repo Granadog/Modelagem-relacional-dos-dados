@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DEB99E79-2A7C-A213-40C6-5A9ABF0F0335" name="T_SGV_NOTA">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<generatorID>85302006-9CC8-E975-B10A-F3DFFD778E51</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_nota" id="411D5BC4-E3AF-9E68-DE52-AAF74E9B04F4">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[regra obrigatoria  criada da RN 24 ]]></commentInRDBMS>
+<generatorID>AF6397BB-647C-016A-269A-44122EBDCA26</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_vencimento" id="5F113746-4D1E-10AB-96EF-67A6032989E0">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[regra obrigatoria  criada da RN 24 ]]></commentInRDBMS>
+<generatorID>F081E88D-2138-B83E-641E-9730D26B9282</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_pagamento" id="8C1CB574-D0DE-9C76-57DF-9B41A1471F7F">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[regra obrigatoria  criada da RN 24 ]]></commentInRDBMS>
+<generatorID>D45DD1ED-06ED-BF80-2F36-46CB559E339A</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_SGV_VENDA_cd_venda" id="EF8D672E-71EB-C2F8-3B0D-08C0F5D1E304">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[regra obrigatoria  criada da RN 24 ]]></commentInRDBMS>
+<generatorID>725B129F-E987-3D51-F8D2-B9AFE48B3228</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C7878612-EABE-3FF3-66D0-DC9E4EC0CE45" name="T_SGV_NOTA_PK">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<generatorID>999F8D65-8B0C-B000-27A5-9D3E36A219FE</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="411D5BC4-E3AF-9E68-DE52-AAF74E9B04F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5C61EBDE-6670-94B5-5E14-B36BB274FFE2" name="T_SGV_NOTA__IDX">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>A6073C0A-D6B3-0F46-7EC6-1ADCE3283FBB</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="EF8D672E-71EB-C2F8-3B0D-08C0F5D1E304"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

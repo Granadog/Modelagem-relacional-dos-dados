@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FDCA10A1-52A5-3107-6811-9844C9B63AC3" containerWithKeyObject="355F5930-A8B1-74CB-CE73-E95C9A68B82C" localFKIndex="B786A68F-7D8B-6AE1-817C-7E55B9E204E2" name="T_SGV_ATENTD_CH_T_SGV_FUNC_FK">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<generatorID>B1EC4AEB-89B4-84AF-D101-60EC63EB6547</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<referredTableLongName>T_SGV_FUNC</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EC88D526-46A2-0851-FEE6-3EC862B82A5F</referredTableID>
+<keyObject>6A7B0FF5-C16D-1D6C-A86A-F6CD1D5A8C01</keyObject>
+<referredKeyID>6A7B0FF5-C16D-1D6C-A86A-F6CD1D5A8C01</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_func</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

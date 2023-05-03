@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="categorizar" directorySegmentName="seg_0" id="E9CF54C4-F28B-0404-AC8E-CD420958AF34">
+<createdBy>Gabi</createdBy>
+<createdTime>2022-09-06 23:03:46 UTC</createdTime>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<engineerTo>
+<item key="FAEA6524-B7CF-E3CA-0C35-9FA6FBC650FC" value="true"/>
+</engineerTo>
+<sourcePk>7997CD4D-4535-9BA4-CC30-88DCEA17D9BA</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8637C4A8-9F75-4EAD-CA42-022AA08D6A7A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CE1CFB48-4755-3469-5232-2C821FBE6646</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

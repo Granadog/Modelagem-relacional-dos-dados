@@ -1,0 +1,411 @@
+
+Table T_SGV_ATENTD_CH criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+INDEX T_SGV_ATENTD_CH__IDX criado.
+
+
+Table T_SGV_ATENTD_CH alterado.
+
+
+Table T_SGV_CATEG criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Table T_SGV_CATEG alterado.
+
+
+Table T_SGV_CATEG_VD criado.
+
+
+Table T_SGV_CATEG_VD alterado.
+
+
+Table T_SGV_CH criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Table T_SGV_CH alterado.
+
+
+Table T_SGV_CLAS_CH criado.
+
+
+Table T_SGV_CLAS_CH alterado.
+
+
+Table T_SGV_CLAS_CH alterado.
+
+
+Table T_SGV_ENDERECO criado.
+
+
+Comment criado.
+
+
+Table T_SGV_ENDERECO alterado.
+
+
+Table T_SGV_FISICA criado.
+
+
+Comment criado.
+
+
+Table T_SGV_FISICA alterado.
+
+
+Table T_SGV_FUNC criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Table T_SGV_FUNC alterado.
+
+
+Table T_SGV_IND_SATISF criado.
+
+
+Table T_SGV_IND_SATISF alterado.
+
+
+Comment criado.
+
+
+Table T_SGV_IND_SATISF alterado.
+
+
+Table T_SGV_JURIDICA criado.
+
+
+Comment criado.
+
+
+Table T_SGV_JURIDICA alterado.
+
+
+Table T_SGV_NOTA criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+INDEX T_SGV_NOTA__IDX criado.
+
+
+Table T_SGV_NOTA alterado.
+
+
+Table T_SGV_PESSOA criado.
+
+
+Table T_SGV_PESSOA alterado.
+
+
+Table T_SGV_PESSOA alterado.
+
+
+Table T_SGV_PROD criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Table T_SGV_PROD alterado.
+
+
+Table T_SGV_PROD_VEND criado.
+
+
+Comment criado.
+
+
+Table T_SGV_PROD_VEND alterado.
+
+
+Table T_SGV_ST_CATEG criado.
+
+
+Table T_SGV_ST_CATEG alterado.
+
+
+Table T_SGV_ST_CH criado.
+
+
+Table T_SGV_ST_CH alterado.
+
+
+Comment criado.
+
+
+Table T_SGV_ST_CH alterado.
+
+
+Table T_SGV_ST_PROD criado.
+
+
+Table T_SGV_ST_PROD alterado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Table T_SGV_ST_PROD alterado.
+
+
+Table T_SGV_ST_VD criado.
+
+
+Table T_SGV_ST_VD alterado.
+
+
+Comment criado.
+
+
+Table T_SGV_ST_VD alterado.
+
+
+Table T_SGV_TELEFONE criado.
+
+
+Comment criado.
+
+
+Table T_SGV_TELEFONE alterado.
+
+
+Table T_SGV_VD criado.
+
+
+Comment criado.
+
+
+Table T_SGV_VD alterado.
+
+
+Table T_SGV_VENDA criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+INDEX T_SGV_VENDA__IDX criado.
+
+
+Table T_SGV_VENDA alterado.
+
+
+Table T_SGV_VISU criado.
+
+
+Comment criado.
+
+
+Table T_SGV_ATENTD_CH alterado.
+
+
+Table T_SGV_ATENTD_CH alterado.
+
+
+Table T_SGV_CATEG alterado.
+
+
+Table T_SGV_CH alterado.
+
+
+Table T_SGV_CH alterado.
+
+
+Table T_SGV_CH alterado.
+
+
+Table T_SGV_CH alterado.
+
+
+Table T_SGV_CH alterado.
+
+
+Table T_SGV_ENDERECO alterado.
+
+
+Table T_SGV_FISICA alterado.
+
+
+Table T_SGV_JURIDICA alterado.
+
+
+Table T_SGV_PROD alterado.
+
+
+Table T_SGV_PROD alterado.
+
+
+Table T_SGV_PROD_VEND alterado.
+
+
+Table T_SGV_PROD_VEND alterado.
+
+
+Table T_SGV_TELEFONE alterado.
+
+
+Table T_SGV_VD alterado.
+
+
+Table T_SGV_VD alterado.
+
+
+Table T_SGV_VD alterado.
+
+
+Table T_SGV_VENDA alterado.
+
+
+Table T_SGV_VISU alterado.
+
+
+Table T_SGV_VISU alterado.
+
+
+Sequence SEQ_CD_PROD criado.
+
+
+Sequence SEQ_CD_CATEG criado.
+
+
+Sequence SEQ_CD_CH criado.
+
+
+Sequence SEQ_CD_ATENDIMENTO_CHAMADO criado.
+
+
+Sequence SEQ_CD_CATEG_VD criado.
+
+
+Sequence SEQ_CD_CLAS_CHAMADO criado.
+
+
+Sequence SEQ_CD_ENDERECO criado.
+
+
+Sequence SEQ_T_SGV_PESSOA_CD_PESSOA criado.
+
+
+Sequence SEQ_CD_FUNC criado.
+
+
+Sequence SEQ_CD_SATISF criado.
+
+
+Sequence SEQ_CD_PESSOA criado.
+
+
+Sequence SEQ_CD_ST_PROD criado.
+
+
+Sequence SEQ_CD_ST_VD criado.
+
+
+Sequence SEQ_CD_TELEFONE criado.
+
+
+Sequence SEQ_CD_VD criado.
+
+
+Sequence SEQ_CD_VISU criado.
+
+
+Sequence SEQ_CD_VENDA criado.
+
+
+Sequence SEQ_CD_NOTA criado.
+

@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7A2A7A0C-F04C-7CDD-DA85-ADFF4A65D00E" name="T_SGV_ST_PROD">
+<createdBy>Gabi</createdBy>
+<createdTime>2022-09-06 14:22:13 UTC</createdTime>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<engineerTo>
+<item key="FAEA6524-B7CF-E3CA-0C35-9FA6FBC650FC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_st_prod" id="14A37568-02F1-B0C7-BDD9-C563F8634CD2">
+<createdBy>Gabi</createdBy>
+<createdTime>2022-09-06 14:22:26 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nome dos Status A = Ativo e I = Inativo]]></commentInRDBMS>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<engineerTo>
+<item key="FAEA6524-B7CF-E3CA-0C35-9FA6FBC650FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<listOfValues>
+<valueDef value="A" description="ATIVO"/>
+<valueDef value="I" description="INATIVO"/>
+</listOfValues>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_st_prod" id="B8749684-F50B-F7B0-92DC-746D981D76A6">
+<createdBy>Gabi</createdBy>
+<createdTime>2022-09-06 14:22:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nome dos Status A = Ativo e I = Inativo]]></commentInRDBMS>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<engineerTo>
+<item key="FAEA6524-B7CF-E3CA-0C35-9FA6FBC650FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C2BB4B53-8974-0598-2A7A-CCE7E0D5382F" name="T_SATUS_PRODUTO PK">
+<createdBy>Gabi</createdBy>
+<createdTime>2022-09-06 14:22:39 UTC</createdTime>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="FAEA6524-B7CF-E3CA-0C35-9FA6FBC650FC" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>14A37568-02F1-B0C7-BDD9-C563F8634CD2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

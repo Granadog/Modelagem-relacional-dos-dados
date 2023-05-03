@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="50BEDD0C-D506-DCD9-215B-3CDF02A3610E" name="T_SGV_ST_CH">
+<createdBy>Gabi</createdBy>
+<createdTime>2022-09-06 14:28:33 UTC</createdTime>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<engineerTo>
+<item key="FAEA6524-B7CF-E3CA-0C35-9FA6FBC650FC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_st_ch" id="6C0FB31A-9599-512D-9396-FCFD3696526D">
+<createdBy>Gabi</createdBy>
+<createdTime>2022-09-06 14:28:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[utilização como sequence RN12                                                                                      status chamos "A" Aberto "L" em atendimento "C" Cnacelado "F" Fechado "X" fechado com insatisfação RN 15 ]]></commentInRDBMS>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<engineerTo>
+<item key="FAEA6524-B7CF-E3CA-0C35-9FA6FBC650FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_status_chamado" id="7731BA94-150D-FC11-79CD-8B586CD343A1">
+<createdBy>Gabi</createdBy>
+<createdTime>2022-09-06 14:29:13 UTC</createdTime>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<engineerTo>
+<item key="FAEA6524-B7CF-E3CA-0C35-9FA6FBC650FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<listOfValues>
+<valueDef value="A" description="aberto"/>
+<valueDef value="C" description="cancelado"/>
+<valueDef value="E" description="em_atendimento"/>
+<valueDef value="F" description="fechado_sucesso"/>
+<valueDef value="X" description="fechado_insatisfacao_cliente"/>
+</listOfValues>
+<defaultValue>A</defaultValue>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F09E53C5-B9A0-BE3F-9EC8-1C7EDBD95ACF" name="T_SGV_STATUS_CHAMADO PK">
+<createdBy>Gabi</createdBy>
+<createdTime>2022-09-06 14:29:11 UTC</createdTime>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="FAEA6524-B7CF-E3CA-0C35-9FA6FBC650FC" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6C0FB31A-9599-512D-9396-FCFD3696526D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

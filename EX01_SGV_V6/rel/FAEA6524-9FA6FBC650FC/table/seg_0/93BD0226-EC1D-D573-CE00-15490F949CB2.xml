@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="93BD0226-EC1D-D573-CE00-15490F949CB2" name="T_SGV_ST_CH">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<generatorID>50BEDD0C-D506-DCD9-215B-3CDF02A3610E</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_st_ch" id="CF5B18FB-BA3F-3B95-5635-F5318358B05E">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[utilização como sequence RN12                                                                                      status chamos "A" Aberto "L" em atendimento "C" Cnacelado "F" Fechado "X" fechado com insatisfação RN 15 ]]></commentInRDBMS>
+<generatorID>6C0FB31A-9599-512D-9396-FCFD3696526D</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_status_chamado" id="A0B90016-6FEE-FE71-18EC-5CD799D7F8AA">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<generatorID>7731BA94-150D-FC11-79CD-8B586CD343A1</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<listOfValues>
+<valueDef value="A" description="aberto"/>
+<valueDef value="C" description="cancelado"/>
+<valueDef value="E" description="em_atendimento"/>
+<valueDef value="F" description="fechado_sucesso"/>
+<valueDef value="X" description="fechado_insatisfacao_cliente"/>
+</listOfValues>
+<defaultValue>A</defaultValue>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="885D05CD-A4AD-A6B9-8D5E-405355EF162D" name="T_SGV_ST_CH_PK">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<generatorID>F09E53C5-B9A0-BE3F-9EC8-1C7EDBD95ACF</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF5B18FB-BA3F-3B95-5635-F5318358B05E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="355F5930-A8B1-74CB-CE73-E95C9A68B82C" name="T_SGV_ATENTD_CH">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<generatorID>F3244D23-F5F0-9060-65AD-91C34E7BD65F</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_atendimento_chamado" id="1B55E7B4-F322-CFC6-7691-2B8F1944C3A3">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<generatorID>3FA43D07-A890-C7B4-1271-6D9EB0EF0419</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_atendimento" id="B7E6F96C-C882-9D04-B0AA-7FC3A1ECA455">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[data opcional RN13]]></commentInRDBMS>
+<generatorID>A0CF4698-66DA-9BE8-590C-B16CC70453E3</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tp_termino_chamada" id="340D566D-4D04-6C65-0BEE-06A06D1441F0">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<generatorID>4AC8584B-452C-DA4E-2E3A-E6D623A9C448</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_chamado_funcionario" id="692EA23B-0BB1-8733-118A-283BF53F8E84">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[informacao opcional ]]></commentInRDBMS>
+<generatorID>DEA7CE00-F27D-5E42-69CE-CE1110742608</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_SGV_CH_cd_ch" id="68518F54-D396-24A8-E681-6AC73B461AE4">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<generatorID>3BC63C9F-085D-C5A6-C6BA-629B473315D8</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="49E5CF7C-735D-6D37-107A-3B6752EBC21C" referredColumn="C3C0D1D1-576F-5C76-5D3B-3ACF92838704"/>
+</associations>
+</Column>
+<Column name="T_SGV_FUNC_cd_func" id="BEB51E22-5495-F37A-50C5-A0696B0B07C5">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[cd func obrigatorio RN14]]></commentInRDBMS>
+<generatorID>1DEB9A33-8392-6E8C-0204-D8A8D8E1B78F</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FDCA10A1-52A5-3107-6811-9844C9B63AC3" referredColumn="601026A2-784B-2E79-E3D2-A035FE6A1652"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="786843F2-855D-2AD4-0FF6-172ED17100FB" name="T_SGV_ATENTD_CH_PK">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<generatorID>A712293B-E79A-B1DF-B4AE-6276140A8B51</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B55E7B4-F322-CFC6-7691-2B8F1944C3A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B6679635-3F03-36E0-5CF2-99455FEAF72B" name="T_SGV_ATENTD_CH__IDX">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>935D0D6A-96AB-AE56-926E-77DB2B3316D2</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="68518F54-D396-24A8-E681-6AC73B461AE4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E73221B4-E5BE-E789-62D3-8E0F34E7C1B7" name="T_SGV_ATENTD_CH_T_SGV_CH_FK">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<generatorID>935D0D6A-96AB-AE56-926E-77DB2B3316D2</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="68518F54-D396-24A8-E681-6AC73B461AE4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B786A68F-7D8B-6AE1-817C-7E55B9E204E2" name="T_SGV_ATENTD_CH_T_SGV_FUNC_FK">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<generatorID>B1EC4AEB-89B4-84AF-D101-60EC63EB6547</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BEB51E22-5495-F37A-50C5-A0696B0B07C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

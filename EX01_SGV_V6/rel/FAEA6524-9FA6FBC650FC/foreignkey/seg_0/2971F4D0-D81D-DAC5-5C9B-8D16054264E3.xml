@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2971F4D0-D81D-DAC5-5C9B-8D16054264E3" containerWithKeyObject="EFA65E05-68BF-773F-61AB-9D15A84A3416" localFKIndex="892AB2DF-0904-5266-6910-37E8DC0EAFA3" name="T_SGV_VISU_T_SGV_VD_FK">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<generatorID>ECDDA425-5D88-7ACB-4639-909D9D3A0B2E</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<referredTableLongName>T_SGV_VD</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0724D35B-E918-CCB9-C3AC-5697D589C3FC</referredTableID>
+<keyObject>4FB92EB6-388D-BCFD-020A-C73678C286A0</keyObject>
+<referredKeyID>4FB92EB6-388D-BCFD-020A-C73678C286A0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_vd</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

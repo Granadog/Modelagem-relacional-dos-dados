@@ -1,0 +1,167 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="535B86EB-409A-84F1-381B-173119D69F25" name="T_SGV_CH">
+<createdBy>Gabi</createdBy>
+<createdTime>2022-09-06 14:09:28 UTC</createdTime>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<engineerTo>
+<item key="FAEA6524-B7CF-E3CA-0C35-9FA6FBC650FC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_ch" id="B2069AE7-0F34-BE23-9653-0D47C2003543">
+<createdBy>Gabi</createdBy>
+<createdTime>2022-09-06 14:09:47 UTC</createdTime>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<engineerTo>
+<item key="FAEA6524-B7CF-E3CA-0C35-9FA6FBC650FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_comentario_cliente" id="422F60D4-0583-523E-3432-6CCF667130D6">
+<createdBy>Gabi</createdBy>
+<createdTime>2022-09-06 14:09:54 UTC</createdTime>
+<commentInRDBMS><![CDATA[informação obrigatoria RN20]]></commentInRDBMS>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<engineerTo>
+<item key="FAEA6524-B7CF-E3CA-0C35-9FA6FBC650FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_ch" id="3CD1CCAC-DBF7-D2A8-517D-99B07143040A">
+<createdBy>Gabi</createdBy>
+<createdTime>2022-09-06 14:10:36 UTC</createdTime>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<engineerTo>
+<item key="FAEA6524-B7CF-E3CA-0C35-9FA6FBC650FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tp_atendimento_total" id="204D4466-C4DE-3FC6-0702-F932E75C0061">
+<createdBy>Gabi</createdBy>
+<createdTime>2022-09-06 14:11:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[data do chamdo obrigatorio RN13/RN16]]></commentInRDBMS>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<engineerTo>
+<item key="FAEA6524-B7CF-E3CA-0C35-9FA6FBC650FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_pessoa" id="E43EDCF3-A818-967D-D779-50884B9E56AC">
+<createdBy>Gabi</createdBy>
+<createdTime>2022-09-06 23:04:21 UTC</createdTime>
+<generatorID>2EAE39B0-9884-9E7B-4C98-71290425CAC5</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<engineerTo>
+<item key="FAEA6524-B7CF-E3CA-0C35-9FA6FBC650FC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>DC93B4B9-76CF-3A75-C2B5-DFBB31C07881</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_prod" id="430C0EE1-BF9C-DF9E-3755-CFEC33CA144B">
+<createdBy>Gabi</createdBy>
+<createdTime>2022-09-06 23:09:06 UTC</createdTime>
+<generatorID>49CF9B66-69C8-8678-9FAC-0776DE1A0D48</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<engineerTo>
+<item key="FAEA6524-B7CF-E3CA-0C35-9FA6FBC650FC" value="true"/>
+</engineerTo>
+<referedAttribute>603A5331-F6C7-0DD0-240F-1A2491D0151F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_st_ch" id="ABE12B77-100C-61C5-B705-A60F628BD881">
+<createdBy>Gabi</createdBy>
+<createdTime>2022-09-06 23:34:09 UTC</createdTime>
+<generatorID>16C1130B-05DB-ED5B-4D08-E48764B7FD02</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<engineerTo>
+<item key="FAEA6524-B7CF-E3CA-0C35-9FA6FBC650FC" value="true"/>
+</engineerTo>
+<referedAttribute>6C0FB31A-9599-512D-9396-FCFD3696526D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<defaultValue>A</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_satisf" id="AB194022-85DA-64CE-9FD4-99062CB80C41">
+<createdBy>Gabi</createdBy>
+<createdTime>2022-09-06 23:38:13 UTC</createdTime>
+<generatorID>9348C70C-BDAC-A0B1-A5E5-6C5A4435E32A</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<engineerTo>
+<item key="FAEA6524-B7CF-E3CA-0C35-9FA6FBC650FC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>0DA33A35-2963-1D51-F28E-971114597257</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_clas_chamado" id="140D2CDE-EAF6-49AC-C5F6-032EF87D8020">
+<createdBy>Gabi</createdBy>
+<createdTime>2022-09-06 23:45:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Informação obrigatoria  tipo "1" sugestao tipo "2" reclamacao RN18]]></commentInRDBMS>
+<generatorID>907E3F8F-2346-664D-4BE2-C020CF55907A</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<engineerTo>
+<item key="FAEA6524-B7CF-E3CA-0C35-9FA6FBC650FC" value="true"/>
+</engineerTo>
+<referedAttribute>9403442E-9589-1AA4-A875-4B911B30E60C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="22CD2582-C6D5-0C5B-BDC5-BC8022B6231B" name="T_SGV_CHAMADOS PK">
+<createdBy>Gabi</createdBy>
+<createdTime>2022-09-06 14:09:52 UTC</createdTime>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="FAEA6524-B7CF-E3CA-0C35-9FA6FBC650FC" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B2069AE7-0F34-BE23-9653-0D47C2003543</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

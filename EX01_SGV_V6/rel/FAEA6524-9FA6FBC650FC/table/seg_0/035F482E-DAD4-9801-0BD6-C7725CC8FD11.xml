@@ -1,0 +1,215 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="035F482E-DAD4-9801-0BD6-C7725CC8FD11" name="T_SGV_CH">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<generatorID>535B86EB-409A-84F1-381B-173119D69F25</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_ch" id="C3C0D1D1-576F-5C76-5D3B-3ACF92838704">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<generatorID>B2069AE7-0F34-BE23-9653-0D47C2003543</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_comentario_cliente" id="CA3BAA1A-716C-DF13-5FBD-AED400C611FC">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[informação obrigatoria RN20]]></commentInRDBMS>
+<generatorID>422F60D4-0583-523E-3432-6CCF667130D6</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_ch" id="B84ACDED-F766-2DA2-EF26-5573B090B671">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<generatorID>3CD1CCAC-DBF7-D2A8-517D-99B07143040A</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tp_atendimento_total" id="65B6CA42-2275-AA69-54E8-4FFBBC21A524">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[data do chamdo obrigatorio RN13/RN16]]></commentInRDBMS>
+<generatorID>204D4466-C4DE-3FC6-0702-F932E75C0061</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_SGV_PESSOA_cd_pessoa" id="49BC98E2-3AB7-4962-1AAD-81CC95C2C5A6">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<generatorID>E43EDCF3-A818-967D-D779-50884B9E56AC</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A275E1ED-F59D-0F37-4524-34EBBD5339A9" referredColumn="A6591070-5140-B49F-4EFA-16B8BF458CAE"/>
+</associations>
+</Column>
+<Column name="T_SGV_PROD_cd_prod" id="946D5592-F627-388E-0DBD-B0F47A6EF335">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<generatorID>430C0EE1-BF9C-DF9E-3755-CFEC33CA144B</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B0DCE9CA-291F-AA1B-B920-7D1C19267D41" referredColumn="19EB1526-9B88-B241-7D21-70C3041ADAD2"/>
+</associations>
+</Column>
+<Column name="T_SGV_ST_CH_cd_st_ch" id="204B484B-4EF0-C1BC-0EE6-F09FBA4B8112">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<generatorID>ABE12B77-100C-61C5-B705-A60F628BD881</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<defaultValue>A</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7823F388-FF6A-DA1D-E9BB-BC756D53076E" referredColumn="CF5B18FB-BA3F-3B95-5635-F5318358B05E"/>
+</associations>
+</Column>
+<Column name="T_SGV_IND_SATISF_cd_satisf" id="F8EE1628-FDF2-D397-6E8D-A5A058767A87">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<generatorID>AB194022-85DA-64CE-9FD4-99062CB80C41</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8D733CF2-B6F7-CF5F-FF4E-F40320E4935A" referredColumn="EA194F1F-ACB8-5ED5-CF88-FA5540FA6398"/>
+</associations>
+</Column>
+<Column name="T_SGV_CLAS_CH_cd_clas_chamado" id="A8DC8AEC-A3EC-7D5C-3CC7-9B8EE074EB3A">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[Informação obrigatoria  tipo "1" sugestao tipo "2" reclamacao RN18]]></commentInRDBMS>
+<generatorID>140D2CDE-EAF6-49AC-C5F6-032EF87D8020</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="72069313-796C-20E2-86E7-8B3A7E36E3CF" referredColumn="7D8D8D5A-3CCB-42A1-D84D-9E4532039631"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1E891C24-9865-CD84-2F1E-0FE9462E772A" name="T_SGV_CH_PK">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<generatorID>22CD2582-C6D5-0C5B-BDC5-BC8022B6231B</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C3C0D1D1-576F-5C76-5D3B-3ACF92838704"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F8931815-FCBF-B355-8A00-9D8CAB4F7537" name="T_SGV_CH_T_SGV_PESSOA_FK">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<generatorID>2EAE39B0-9884-9E7B-4C98-71290425CAC5</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="49BC98E2-3AB7-4962-1AAD-81CC95C2C5A6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4D33BFE9-9986-EC66-53BB-EB83D0C7DE1C" name="T_SGV_CH_T_SGV_ST_CH_FK">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<generatorID>16C1130B-05DB-ED5B-4D08-E48764B7FD02</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="204B484B-4EF0-C1BC-0EE6-F09FBA4B8112"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F6D9AA11-C104-9169-B3C1-D8C9B66D9255" name="T_SGV_CH_T_SGV_IND_SATISF_FK">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<generatorID>9348C70C-BDAC-A0B1-A5E5-6C5A4435E32A</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F8EE1628-FDF2-D397-6E8D-A5A058767A87"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3BC9E5B8-4511-E3C8-0C30-50A519601263" name="T_SGV_CH_T_SGV_CLAS_CH_FK">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<generatorID>907E3F8F-2346-664D-4BE2-C020CF55907A</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A8DC8AEC-A3EC-7D5C-3CC7-9B8EE074EB3A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1F4A9366-72DF-B71E-595A-93458AC3EADD" name="T_SGV_CH_T_SGV_PROD_FK">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<generatorID>49CF9B66-69C8-8678-9FAC-0776DE1A0D48</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="946D5592-F627-388E-0DBD-B0F47A6EF335"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

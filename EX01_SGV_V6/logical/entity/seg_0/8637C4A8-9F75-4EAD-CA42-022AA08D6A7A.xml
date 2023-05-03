@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8637C4A8-9F75-4EAD-CA42-022AA08D6A7A" name="T_SGV_CATEG">
+<createdBy>Gabi</createdBy>
+<createdTime>2022-09-06 14:03:01 UTC</createdTime>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<engineerTo>
+<item key="FAEA6524-B7CF-E3CA-0C35-9FA6FBC650FC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_categ" id="EA720281-378F-0B1C-052B-67A75FCF9EBA">
+<createdBy>Gabi</createdBy>
+<createdTime>2022-09-06 14:03:24 UTC</createdTime>
+<commentInRDBMS><![CDATA[numero sequencial para ser utilizado como sequence crescente ]]></commentInRDBMS>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<engineerTo>
+<item key="FAEA6524-B7CF-E3CA-0C35-9FA6FBC650FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_categ" id="328A090E-E82E-F9EB-0A60-3C1A16D29185">
+<createdBy>Gabi</createdBy>
+<createdTime>2022-09-06 14:03:38 UTC</createdTime>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<engineerTo>
+<item key="FAEA6524-B7CF-E3CA-0C35-9FA6FBC650FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_categ" id="58C99441-27BC-988F-EB45-33997099B45D">
+<createdBy>Gabi</createdBy>
+<createdTime>2022-09-06 14:03:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[descricao obrigatoria "A" Ativo se a dt_ fim estive em branco, e"I" inativo se a dt_fim estever preenchida RN06]]></commentInRDBMS>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<engineerTo>
+<item key="FAEA6524-B7CF-E3CA-0C35-9FA6FBC650FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_inicio" id="87B561A3-132C-91DC-F008-462A13F0348B">
+<createdBy>Gabi</createdBy>
+<createdTime>2022-09-06 14:04:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[data obrigatoria ]]></commentInRDBMS>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<engineerTo>
+<item key="FAEA6524-B7CF-E3CA-0C35-9FA6FBC650FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_fim" id="1DD95FE5-23CE-A19A-DFD1-04DB2481F959">
+<createdBy>Gabi</createdBy>
+<createdTime>2022-09-06 14:04:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[data opcional ( estando em branco categoria "A" ativo e operante. se estiver preenchido deve estar "I" Inativo "R06"]]></commentInRDBMS>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<engineerTo>
+<item key="FAEA6524-B7CF-E3CA-0C35-9FA6FBC650FC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_st_categ" id="F0E4EDA2-06B6-D502-3D0D-8FD69E6C03EB">
+<createdBy>Gabi</createdBy>
+<createdTime>2022-09-06 23:32:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[status obrigatorio ]]></commentInRDBMS>
+<generatorID>74491C59-74F6-45CD-3B86-D904325899E9</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<engineerTo>
+<item key="FAEA6524-B7CF-E3CA-0C35-9FA6FBC650FC" value="true"/>
+</engineerTo>
+<referedAttribute>F5B0F289-CB35-9A44-558A-4F25E21B23CE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7997CD4D-4535-9BA4-CC30-88DCEA17D9BA" name="T_SGV_CATEGORIA PK">
+<createdBy>Gabi</createdBy>
+<createdTime>2022-09-06 14:03:36 UTC</createdTime>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="FAEA6524-B7CF-E3CA-0C35-9FA6FBC650FC" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EA720281-378F-0B1C-052B-67A75FCF9EBA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="85302006-9CC8-E975-B10A-F3DFFD778E51" name="T_SGV_NOTA">
+<createdBy>User</createdBy>
+<createdTime>2022-09-14 00:41:27 UTC</createdTime>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<engineerTo>
+<item key="FAEA6524-B7CF-E3CA-0C35-9FA6FBC650FC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_nota" id="AF6397BB-647C-016A-269A-44122EBDCA26">
+<createdBy>User</createdBy>
+<createdTime>2022-09-14 00:42:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[regra obrigatoria  criada da RN 24 ]]></commentInRDBMS>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<engineerTo>
+<item key="FAEA6524-B7CF-E3CA-0C35-9FA6FBC650FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_vencimento" id="F081E88D-2138-B83E-641E-9730D26B9282">
+<createdBy>User</createdBy>
+<createdTime>2022-09-14 00:42:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[regra obrigatoria  criada da RN 24 ]]></commentInRDBMS>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<engineerTo>
+<item key="FAEA6524-B7CF-E3CA-0C35-9FA6FBC650FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_pagamento" id="D45DD1ED-06ED-BF80-2F36-46CB559E339A">
+<createdBy>User</createdBy>
+<createdTime>2022-09-14 00:43:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[regra obrigatoria  criada da RN 24 ]]></commentInRDBMS>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<engineerTo>
+<item key="FAEA6524-B7CF-E3CA-0C35-9FA6FBC650FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_venda" id="725B129F-E987-3D51-F8D2-B9AFE48B3228">
+<createdBy>User</createdBy>
+<createdTime>2022-09-14 00:48:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[regra obrigatoria  criada da RN 24 ]]></commentInRDBMS>
+<generatorID>A6073C0A-D6B3-0F46-7EC6-1ADCE3283FBB</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<engineerTo>
+<item key="FAEA6524-B7CF-E3CA-0C35-9FA6FBC650FC" value="true"/>
+</engineerTo>
+<referedAttribute>643E2434-633E-0064-DBE1-D1E2CB386680</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="999F8D65-8B0C-B000-27A5-9D3E36A219FE" name="T_SGV_NOTA PK">
+<createdBy>User</createdBy>
+<createdTime>2022-09-14 00:42:39 UTC</createdTime>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="FAEA6524-B7CF-E3CA-0C35-9FA6FBC650FC" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AF6397BB-647C-016A-269A-44122EBDCA26</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

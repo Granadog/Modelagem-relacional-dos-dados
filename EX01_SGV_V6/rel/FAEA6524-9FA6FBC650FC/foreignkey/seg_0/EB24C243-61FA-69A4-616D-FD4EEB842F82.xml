@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EB24C243-61FA-69A4-616D-FD4EEB842F82" containerWithKeyObject="FC7E6339-A086-5B42-AA83-77030EC321AD" localFKIndex="DC5F3890-5BFB-C51D-2C25-FCFFCFBE6DC4" name="T_SGV_PROD_VEND_T_SGV_PROD_FK">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<generatorID>7F42C141-2B0B-22A7-D56E-531968CD85E1</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<referredTableLongName>T_SGV_PROD</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B0332827-F0A3-8D9F-0D5A-2C057E4B7CE7</referredTableID>
+<keyObject>6B2A4181-F1AE-7A06-3B23-4889B4606DFB</keyObject>
+<referredKeyID>6B2A4181-F1AE-7A06-3B23-4889B4606DFB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_prod</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

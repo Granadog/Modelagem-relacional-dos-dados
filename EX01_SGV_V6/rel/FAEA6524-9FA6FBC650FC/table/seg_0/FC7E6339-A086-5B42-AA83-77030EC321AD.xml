@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FC7E6339-A086-5B42-AA83-77030EC321AD" name="T_SGV_PROD_VEND">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<generatorID>4F9F1F43-FD10-175C-347F-77EC772F5B14</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nr_qtd" id="3CDB51FB-F990-A500-2DE5-E5FEB045C4AE">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[regra obrigatoria  criada da RN 24 ]]></commentInRDBMS>
+<generatorID>9C431915-9CD2-CF10-4289-CB63F9BAF419</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_prod_vend" id="EEA72511-ACCC-49F5-3F9A-D8351A3278CB">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<generatorID>DE3AE2FA-BF98-8C43-B652-D8A9B472DEB0</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,11,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_SGV_PROD_cd_prod" id="63FE9049-B02D-989C-47A8-1C6F261F3F61">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<generatorID>D01EF9F1-FD82-242B-29CD-100FC9C7FFC8</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EB24C243-61FA-69A4-616D-FD4EEB842F82" referredColumn="19EB1526-9B88-B241-7D21-70C3041ADAD2"/>
+</associations>
+</Column>
+<Column name="T_SGV_VENDA_cd_venda" id="ED27C3AD-3B5D-F971-4601-34105EC6994E">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<generatorID>9B1D3F4C-7907-1608-3357-C231EA37316E</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3073741D-73F2-4D58-2F63-CE65137C7C1E" referredColumn="1A8171E4-53FD-0C96-F992-B7AAEE4A5D12"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BB0AF0E9-AEC7-2814-5F31-831434B2792D" name="T_SGV_PROD_VEND_PK">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<generatorID>EC7ACBB3-5758-6775-BDD0-0F1FE641F732</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="63FE9049-B02D-989C-47A8-1C6F261F3F61"/>
+<colUsage columnID="ED27C3AD-3B5D-F971-4601-34105EC6994E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DC5F3890-5BFB-C51D-2C25-FCFFCFBE6DC4" name="T_SGV_PROD_VEND_T_SGV_PROD_FK">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<generatorID>7F42C141-2B0B-22A7-D56E-531968CD85E1</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="63FE9049-B02D-989C-47A8-1C6F261F3F61"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C6E8DD26-E3BB-57D4-FC1B-5ADB45DFBA31" name="T_SGV_PROD_VEND_T_SGV_VENDA_FK">
+<createdBy>johnesdsf</createdBy>
+<createdTime>2022-09-14 03:00:25 UTC</createdTime>
+<generatorID>0F482293-7A14-7399-F23D-04116CD17D55</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ED27C3AD-3B5D-F971-4601-34105EC6994E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

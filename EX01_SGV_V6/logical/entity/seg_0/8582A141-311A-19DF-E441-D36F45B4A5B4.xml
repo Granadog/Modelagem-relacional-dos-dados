@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8582A141-311A-19DF-E441-D36F45B4A5B4" name="T_SGV_VD">
+<createdBy>Gabi</createdBy>
+<createdTime>2022-09-06 14:01:28 UTC</createdTime>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<engineerTo>
+<item key="FAEA6524-B7CF-E3CA-0C35-9FA6FBC650FC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_vd" id="D83CD9D6-A60D-F38D-3A36-8F6D3E99463E">
+<createdBy>Gabi</createdBy>
+<createdTime>2022-09-06 14:01:48 UTC</createdTime>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<engineerTo>
+<item key="FAEA6524-B7CF-E3CA-0C35-9FA6FBC650FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_vd" id="56EE3AD3-CA6B-239B-F1E5-29CCCA67A838">
+<createdBy>Gabi</createdBy>
+<createdTime>2022-09-06 23:56:12 UTC</createdTime>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<engineerTo>
+<item key="FAEA6524-B7CF-E3CA-0C35-9FA6FBC650FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_prod" id="0FF35087-69E0-2A99-D486-8A907B979F41">
+<createdBy>Gabi</createdBy>
+<createdTime>2022-09-06 23:01:44 UTC</createdTime>
+<generatorID>C5A4FCC6-FF7A-4919-6EAE-30E7ACAED4A1</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<engineerTo>
+<item key="FAEA6524-B7CF-E3CA-0C35-9FA6FBC650FC" value="true"/>
+</engineerTo>
+<referedAttribute>603A5331-F6C7-0DD0-240F-1A2491D0151F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_st_vd" id="BED473CD-87D8-FC9C-A3D5-47361E3691F5">
+<createdBy>Gabi</createdBy>
+<createdTime>2022-09-06 23:33:05 UTC</createdTime>
+<generatorID>CAA0F0F6-F463-7EEF-DE36-1C6DEBE6B833</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<engineerTo>
+<item key="FAEA6524-B7CF-E3CA-0C35-9FA6FBC650FC" value="true"/>
+</engineerTo>
+<referedAttribute>FAEBA3E3-AB3C-9DA7-6A6D-DEC351FDE7BF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_categ_vd" id="08A1FB27-025E-173C-427F-B9877F8BF970">
+<createdBy>Gabi</createdBy>
+<createdTime>2022-09-06 23:59:05 UTC</createdTime>
+<commentInRDBMS><![CDATA[Obrigatorio ter categoria RN 10]]></commentInRDBMS>
+<generatorID>1112A6CB-0970-0470-171A-5E3CB43A5A64</generatorID>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<engineerTo>
+<item key="FAEA6524-B7CF-E3CA-0C35-9FA6FBC650FC" value="true"/>
+</engineerTo>
+<referedAttribute>F39ED36B-93AD-6B9E-A92D-0DF1D0499F02</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9B7B1529-6669-FB09-5910-F6859CC12A89" name="T_SGV_VIDEO PK">
+<createdBy>Gabi</createdBy>
+<createdTime>2022-09-06 14:01:57 UTC</createdTime>
+<ownerDesignName>EX01_SGV_V6</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="FAEA6524-B7CF-E3CA-0C35-9FA6FBC650FC" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D83CD9D6-A60D-F38D-3A36-8F6D3E99463E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
